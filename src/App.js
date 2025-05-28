@@ -18,7 +18,7 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await fetch("https://bkchat.onrender.com/api/chat", {
+      const res = await fetch("https://8a02-41-92-184-172.ngrok-free.app/api/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
