@@ -150,7 +150,7 @@ textarea {
 }
 
 textarea:focus {
-  border-color: #00cc00;
+  border-color: #0000;
 }
 
 .send-button {
