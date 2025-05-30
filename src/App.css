@@ -13,6 +13,7 @@
   bottom: 20px;
   right: 20px;
   z-index: 1000;
+  overflow: hidden;
 }
 
 /* Bouton flottant pour ouvrir le chatbot */
@@ -147,10 +148,12 @@ textarea {
   outline: none;
   transition: border-color 0.2s;
   max-height: 100px;
+  color: #000; /* Texte noir */
+  background-color: #fff;
 }
 
 textarea:focus {
-  border-color: #0000;
+  border-color: #00cc00;
 }
 
 .send-button {
