@@ -18,7 +18,7 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await fetch("https://8a02-41-92-184-172.ngrok-free.app/api/chat", {
+      const res = await fetch("https://f1a9-41-92-184-172.ngrok-free.app/api/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
